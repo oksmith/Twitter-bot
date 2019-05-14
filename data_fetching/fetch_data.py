@@ -3,6 +3,7 @@ Loading data.
 """
 
 import tweepy
+import textblob
 
 # Import the keys from a module not added to Git. Cannot let these keys be publicly accessible.
 from data_fetching.keys import API_KEY, API_SECRET_KEY, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
